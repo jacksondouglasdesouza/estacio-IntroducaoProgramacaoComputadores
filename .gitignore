@@ -1,0 +1,35 @@
+# Compilados e executáveis
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+
+# Arquivos de debug
+*.dSYM/
+*.su
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Arquivos temporários
+*.tmp
+*.log
+*~
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini

@@ -88,7 +88,7 @@ int main()
 
    float densidadePopulacional01 = (float)populacaoCidade1 / areaCidade1;
    float densidadePopulacional02 = (float)populacaoCidade2 / areaCidade2;
-
+   // Estou multiplicando o PIB por 1 bilhão (1000000000.0) para converter a saida no formato do exemplo do exercício.
    float pibPerCapitaCidade1 = (pibCidade1 * 1000000000.0) / (float)populacaoCidade1;
    float pibPerCapitaCidade2 = (pibCidade2 * 1000000000.0) / (float)populacaoCidade2;
 

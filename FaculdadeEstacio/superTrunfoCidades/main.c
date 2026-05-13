@@ -130,6 +130,8 @@ int main()
 
    //-- SAIDA DAS COMPARAÇÃO DA CARTAS --//
 
+   /* Parte 01 - comparação básica sem estruturas de comparação.
+
    printf("----------------------------------------\n\n");
    printf("| Comparação entre as Cartas |\n");
    printf("População: Carta %d venceu %d\n", (populacaoCidade1 > populacaoCidade2), (populacaoCidade1 > populacaoCidade2));
@@ -139,6 +141,23 @@ int main()
    printf("Densidade Populacional: Carta %d venceu %d\n", (densidadePopulacional01 > densidadePopulacional02), (densidadePopulacional01 > densidadePopulacional02));
    printf("PIB per Capita: Carta %d venceu %d\n", (pibPerCapitaCidade1 > pibPerCapitaCidade2), (pibPerCapitaCidade1 > pibPerCapitaCidade2));
    printf("Super Poder: Carta %d venceu %d\n\n", (superPoderCidade1 > superPoderCidade2), (superPoderCidade1 > superPoderCidade2));
+   */
+
+   /** Parte 02 - comparação com estrutura de comparação */
+
+   printf("----------------------------------------\n\n");
+   printf("| Comparação entre as Cartas (Atributo: População) |\n");
+   printf("Carta 01 - %s: %u\n", nomeCidade1, populacaoCidade1);
+   printf("Carta 02 - %s: %u\n", nomeCidade2, populacaoCidade2);
+
+   if (populacaoCidade1 > populacaoCidade2)
+   {
+      printf("Resultado: Carta 01 (%s) venceu!\n\n", nomeCidade1);
+   }
+   else
+   {
+      printf("Resultado: Carta 02 (%s) venceu!\n\n", nomeCidade2);
+   }
 
    return 0;
 }

@@ -143,7 +143,7 @@ int main()
    printf("Super Poder: Carta %d venceu %d\n\n", (superPoderCidade1 > superPoderCidade2), (superPoderCidade1 > superPoderCidade2));
    */
 
-   /** Parte 02 - comparação com estrutura de comparação */
+   /** Parte 02 - comparação com estrutura de comparação
 
    printf("----------------------------------------\n\n");
    printf("| Comparação entre as Cartas (Atributo: População) |\n");
@@ -157,6 +157,174 @@ int main()
    else
    {
       printf("Resultado: Carta 02 (%s) venceu!\n\n", nomeCidade2);
+   }
+
+   */
+
+   /** Parte 03 - comparação com estrutura switch Case*/
+
+   float densidadePopulacionalInvertida_01 = 1 / densidadePopulacional01;
+   float densidadePopulacionalInvertida_02 = 1 / densidadePopulacional02;
+
+   int escolha;
+
+   printf("| Comparação entre Cartas |\n");
+   printf("Escolha qual atributo deseja comparar\n");
+   printf("01 . População:  \n");
+   printf("02 . Área:  \n");
+   printf("03 . Pib:  \n");
+   printf("04 . Pontos Turísticos:  \n");
+   printf("05 . Densidade Populacional:  \n");
+   printf("06 . Pib Per Capita:  \n");
+   printf("07 . Super Poder da Carta:  \n");
+   printf("08 . Sair:  \n\n");
+   scanf("%d", &escolha);
+
+   switch (escolha)
+   {
+   case 1:
+      if (populacaoCidade1 > populacaoCidade2)
+      {
+         printf("A população da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (populacaoCidade2 > populacaoCidade1)
+      {
+         printf("A população da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas em sua população!\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s", nomeCidade1);
+      printf("\tPopulação: %d\n\n", populacaoCidade1);
+
+      printf("Cidade 02: %s", nomeCidade2);
+      printf("\tPopulação: %d\n\n", populacaoCidade2);
+      break;
+   case 2:
+      if (areaCidade1 > areaCidade2)
+      {
+         printf("A área da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (areaCidade2 > areaCidade1)
+      {
+         printf("A área da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas em sua área geográfica!\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s ->", nomeCidade1);
+      printf("\tÁrea: %.2f km²\n\n", areaCidade1);
+
+      printf("Cidade 02: %s ->", nomeCidade2);
+      printf("\tÁrea: %.2f km²\n\n", areaCidade2);
+      break;
+   case 3:
+      if (pibCidade1 > pibCidade2)
+      {
+         printf("O PIB da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (pibCidade2 > pibCidade1)
+      {
+         printf("O PIB da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas no seu PIB!\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s ->", nomeCidade1);
+      printf("\tPIB R$: %.2f bilhões\n\n", pibCidade1);
+      printf("Cidade 02: %s ->", nomeCidade2);
+      printf("\tPIB R$: %.2f bilhões\n\n", pibCidade2);
+      break;
+   case 4:
+      if (pontosTuristicosCidade1 > pontosTuristicosCidade2)
+      {
+         printf("A [ Carta 01 ] é a campeã!\n");
+      }
+      else if (pontosTuristicosCidade2 > pontosTuristicosCidade1)
+      {
+         printf("A [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas!\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s", nomeCidade1);
+      printf("\tPontos Turísticos: %d\n\n", pontosTuristicosCidade1);
+
+      printf("Cidade 02: %s", nomeCidade2);
+      printf("\tPontos Turísticos: %d\n\n", pontosTuristicosCidade2);
+      break;
+   case 5:
+      if (densidadePopulacionalInvertida_01 < densidadePopulacionalInvertida_02)
+      {
+         printf("A Densidade Populacional da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (densidadePopulacionalInvertida_02 < densidadePopulacionalInvertida_01)
+      {
+         printf("A Densidade Populacional da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas em sua Densidade Populacional\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s ->", nomeCidade1);
+      printf("\tDensidade Populacional: %.8f habitantes/km²\n\n", densidadePopulacionalInvertida_01);
+
+      printf("Cidade 02: %s ->", nomeCidade2);
+      printf("\tDensidade Populacional: %.8f habitantes/km²\n\n", densidadePopulacionalInvertida_02);
+      break;
+   case 6:
+      if (pibPerCapitaCidade1 > pibPerCapitaCidade2)
+      {
+         printf("O PIB PER CAPTA da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (pibPerCapitaCidade2 > pibPerCapitaCidade1)
+      {
+         printf("O PIB PER CAPTA da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas no seu PIB PER CAPTA!\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s ->", nomeCidade1);
+      printf("\tPIB PER CAPTA R$: %.2f\n\n", pibPerCapitaCidade1);
+      printf("Cidade 02: %s ->", nomeCidade2);
+      printf("\tPIB PER CAPTA R$: %.2f\n\n", pibPerCapitaCidade2);
+      break;
+   case 7:
+      if (superPoderCidade1 > superPoderCidade2)
+      {
+         printf("O Super Poder da [ Carta 01 ] é a campeã!\n");
+      }
+      else if (superPoderCidade2 > superPoderCidade1)
+      {
+         printf("O Super Poder da [ Carta 02 ] é a campeã!\n");
+      }
+      else
+      {
+         printf("As cartas estão empatadas em seus Super Poderes\n");
+      }
+      printf("Veja os dados comparativos para definir o resultado: \n\n");
+      printf("Cidade 01: %s ->", nomeCidade1);
+      printf("\tSuper Poder: %.2f\n\n", superPoderCidade1);
+
+      printf("Cidade 02: %s ->", nomeCidade2);
+      printf("\tSuper Poder:: %.2f\n\n", superPoderCidade2);
+      break;
+   case 8:
+      printf("Saindo do Jogo ...");
+      break;
+   default:
+      printf("Opção Inválida");
    }
 
    return 0;

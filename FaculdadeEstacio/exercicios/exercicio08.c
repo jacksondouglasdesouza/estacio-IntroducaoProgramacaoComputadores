@@ -31,12 +31,18 @@ int main()
    printf("Num = %d\n", nun);
    */
 
+   /*
    char ch1, ch2;
    printf("Digite duas letras: \n");
    scanf("%c %c", &ch1, &ch2);
    ch1 = ch2;
    ch2 = ch1;
    printf("Ch1 = %c e Ch2 = %c\n", ch1, ch2);
+   */
+   int idade = 12;
+
+   printf(idade < 18 ? "Menor de idade" : "Maior de idade");
+   
 
    return 0;
 }

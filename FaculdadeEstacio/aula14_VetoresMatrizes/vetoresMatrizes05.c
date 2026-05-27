@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+#define LINHAS 30
+#define COLUNAS 30
+
+int main()
+{
+   setlocale(LC_ALL, "Portuguese");
+
+   int matriz[LINHAS][COLUNAS];
+   int soma = 0;
+
+   for (int i = 0; i < LINHAS; i++)
+   {
+      for (int j = 0; j < COLUNAS; j++)
+      {
+         soma++;
+         matriz[i][j] = soma;
+         printf("[ %d ]", matriz[i][j]);
+      }
+      printf("\n");
+   }
+
+   return 0;
+}

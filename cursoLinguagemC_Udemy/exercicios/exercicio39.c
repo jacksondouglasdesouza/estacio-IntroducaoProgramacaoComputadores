@@ -4,15 +4,15 @@
 
 int main()
 {
-   setlocale(LC_ALL, "Portuguese");
+   setlocale(LC_ALL, "portuguese");
 
    /*
-      Escreva um programa para ler as notas da primeira e da segunda avaliaÁ„o de um aluno.
-      Calcule e imprima a mÈdia semestral.
-      O programa dever· aceitar apenas notas v·lidas no intervalo 0 a 10.
+      Escreva um programa para ler as notas da primeira e da segunda avalia√ß√£o de um aluno.
+      Calcule e imprima a m√©dia semestral.
+      O programa dever√° aceitar apenas notas v√°lidas no intervalo 0 a 10.
       Cada nota deve ser validada separadamente.
-      Ao final, deve ser impressa a mensagem "novo calculo? (1-sim 2-nao)", indicando se ele deseja ou n„o executar o programa novamente.
-      Se for informado o cÛdigo 1, deve ser repetida a execuÁ„o de todo o programa para permitir um novo c·lculo, se for informado o cÛdigo 2 o programa deve ser encerrado.
+      Ao final, deve ser impressa a mensagem "novo calculo? (1-sim 2-nao)", indicando se ele deseja ou n√£o executar o programa novamente.
+      Se for informado o c√≥digo 1, deve ser repetida a execu√ß√£o de todo o programa para permitir um novo c√°lculo, se for informado o c√≥digo 2 o programa deve ser encerrado.
    */
 
    double nota1, nota2, media;
@@ -21,29 +21,29 @@ int main()
    do
    {
 
-      printf("Digite a nota da primeira avaliaÁ„o: ");
+      printf("Digite a nota da primeira avalia√ß√£o: ");
       scanf("%lf", &nota1);
 
       while (nota1 < 0 || nota1 > 10)
       {
-         printf("Nota inv·lida! Digite uma nota entre 0 e 10.\n");
+         printf("Nota inv√°lida! Digite uma nota entre 0 e 10.\n");
          scanf("%lf", &nota1);
       }
 
-      printf("Digite a nota da segunda avaliaÁ„o: ");
+      printf("Digite a nota da segunda avalia√ß√£o: ");
       scanf("%lf", &nota2);
 
       while (nota2 < 0 || nota2 > 10)
       {
-         printf("Nota inv·lida! Digite uma nota entre 0 e 10.\n");
+         printf("Nota inv√°lida! Digite uma nota entre 0 e 10.\n");
          scanf("%lf", &nota2);
       }
 
       media = (nota1 + nota2) / 2;
 
-      printf("MÈdia semestral: %.2lf\n", media);
+      printf("M√©dia semestral: %.2lf\n", media);
 
-      printf("Deseja fazer um novo c·lculo? [ 1-sim 2-nao ]: ");
+      printf("Deseja fazer um novo c√°lculo? [ 1-sim 2-nao ]: ");
       scanf("%d", &opcao);
 
    } while (opcao != 2);

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "arquivo.h"
+#include "../include/arquivo.h"
 
 void salvarAlunos(Aluno alunos[], int total)
 {
-   FILE *arquivo = fopen("alunos.dat", "wb");
+   FILE *arquivo = fopen("data/alunos.dat", "wb");
 
    if (arquivo == NULL)
    {
@@ -25,7 +25,7 @@ void salvarAlunos(Aluno alunos[], int total)
 
 void carregarAlunos(Aluno alunos[], int *total)
 {
-   FILE *arquivo = fopen("alunos.dat", "rb");
+   FILE *arquivo = fopen("data/alunos.dat", "rb");
 
    if (arquivo == NULL)
    {

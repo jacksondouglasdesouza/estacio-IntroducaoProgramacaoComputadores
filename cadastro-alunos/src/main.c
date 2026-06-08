@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include "aluno.h"
-#include "arquivo.h"
+#include "../include/aluno.h"
+#include "../include/arquivo.h"
+#include "../include/relatorio.h"
 
 void cadastrarAluno(Aluno alunos[], int *total);
 void listarAlunos(Aluno alunos[], int total);
 void salvarAlunos(Aluno alunos[], int total);
 void carregarAlunos(Aluno alunos[], int *total);
+void buscarAluno(Aluno alunos[], int total);
+void exportarRelatorio(Aluno alunos[], int total);
 
 int main()
 {
@@ -24,6 +27,8 @@ int main()
       printf("1 - Cadastrar aluno\n");
       printf("2 - Listar alunos\n");
       printf("3 - Salvar alunos\n");
+      printf("4 - Buscar aluno\n");
+      printf("5 - Exportar relatório\n");
       printf("0 - Sair\n");
       printf("Opçao: ");
       scanf("%d", &opcao);
@@ -38,6 +43,12 @@ int main()
          break;
       case 3:
          salvarAlunos(alunos, total);
+         break;
+      case 4:
+         buscarAluno(alunos, total);
+         break;
+      case 5:
+         exportarRelatorio(alunos, total);
          break;
       case 0:
          printf("[ Encerrando programa! ]");

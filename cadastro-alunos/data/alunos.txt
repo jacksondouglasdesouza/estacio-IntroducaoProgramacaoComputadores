@@ -1,0 +1,195 @@
+========================================
+     RELATÓRIO DE ALUNOS
+========================================
+
+--- Aluno 1 ---
+Nome: Felipe Augusto Cardoso
+Matricula: 1
+Nota 01: 5.00
+Nota 02: 6.00
+Nota 03: 7.00
+Nota 04: 8.00
+Media: 6.50
+Situação: Aprovado
+
+--- Aluno 2 ---
+Nome: Renata Souza Oliveira
+Matricula: 2
+Nota 01: 9.00
+Nota 02: 6.00
+Nota 03: 5.00
+Nota 04: 8.00
+Media: 7.00
+Situação: Aprovado
+
+--- Aluno 3 ---
+Nome: Gustavo Henrique Prado
+Matricula: 3
+Nota 01: 7.00
+Nota 02: 5.00
+Nota 03: 6.00
+Nota 04: 9.00
+Media: 6.75
+Situação: Aprovado
+
+--- Aluno 4 ---
+Nome: Isabela Cristina Nunes
+Matricula: 4
+Nota 01: 4.00
+Nota 02: 5.00
+Nota 03: 3.00
+Nota 04: 2.00
+Media: 3.50
+Situação: Reprovado
+
+--- Aluno 5 ---
+Nome: Anderson Luis Batista
+Matricula: 5
+Nota 01: 3.00
+Nota 02: 2.00
+Nota 03: 1.00
+Nota 04: 3.00
+Media: 2.25
+Situação: Reprovado
+
+--- Aluno 6 ---
+Nome: Priscila Melo Ferreira
+Matricula: 6
+Nota 01: 6.00
+Nota 02: 3.00
+Nota 03: 5.00
+Nota 04: 2.00
+Media: 4.00
+Situação: Reprovado
+
+--- Aluno 7 ---
+Nome: Rodrigo Alves Teixeira
+Matricula: 7
+Nota 01: 9.00
+Nota 02: 8.00
+Nota 03: 9.00
+Nota 04: 7.00
+Media: 8.25
+Situação: Aprovado
+
+--- Aluno 8 ---
+Nome: Tatiane Costa Barbosa
+Matricula: 8
+Nota 01: 9.00
+Nota 02: 6.00
+Nota 03: 5.00
+Nota 04: 8.00
+Media: 7.00
+Situação: Aprovado
+
+--- Aluno 9 ---
+Nome: Leandro Marques Vieira
+Matricula: 9
+Nota 01: 4.00
+Nota 02: 5.00
+Nota 03: 3.00
+Nota 04: 5.00
+Media: 4.25
+Situação: Reprovado
+
+--- Aluno 10 ---
+Nome: Vanessa Lima Rodrigues
+Matricula: 10
+Nota 01: 4.00
+Nota 02: 5.00
+Nota 03: 2.00
+Nota 04: 3.00
+Media: 3.50
+Situação: Reprovado
+
+--- Aluno 11 ---
+Nome: Fábio Gonçalves Araújo
+Matricula: 11
+Nota 01: 9.00
+Nota 02: 8.00
+Nota 03: 7.00
+Nota 04: 6.00
+Media: 7.50
+Situação: Aprovado
+
+--- Aluno 12 ---
+Nome: Daniela Pereira Campos
+Matricula: 12
+Nota 01: 1.00
+Nota 02: 2.00
+Nota 03: 3.00
+Nota 04: 4.00
+Media: 2.50
+Situação: Reprovado
+
+--- Aluno 13 ---
+Nome: Marcelo Rocha Santana
+Matricula: 13
+Nota 01: 8.00
+Nota 02: 5.00
+Nota 03: 2.00
+Nota 04: 3.00
+Media: 4.50
+Situação: Reprovado
+
+--- Aluno 14 ---
+Nome: Aline Ribeiro Monteiro
+Matricula: 14
+Nota 01: 9.00
+Nota 02: 9.00
+Nota 03: 8.00
+Nota 04: 6.00
+Media: 8.00
+Situação: Aprovado
+
+--- Aluno 15 ---
+Nome: Eduardo Fernandes Cruz
+Matricula: 15
+Nota 01: 9.00
+Nota 02: 6.00
+Nota 03: 3.00
+Nota 04: 6.00
+Media: 6.00
+Situação: Aprovado
+
+--- Aluno 16 ---
+Nome: Jackson Douglas de Souza
+Matricula: 16
+Nota 01: 10.00
+Nota 02: 10.00
+Nota 03: 10.00
+Nota 04: 9.00
+Media: 9.75
+Situação: Aprovado
+
+--- Aluno 17 ---
+Nome: Victória Silva Bernardes
+Matricula: 17
+Nota 01: 5.00
+Nota 02: 6.00
+Nota 03: 7.00
+Nota 04: 8.00
+Media: 6.50
+Situação: Aprovado
+
+--- Aluno 18 ---
+Nome: Manu da Silva Ribeiro
+Matricula: 18
+Nota 01: 5.00
+Nota 02: 6.00
+Nota 03: 3.00
+Nota 04: 6.00
+Media: 5.00
+Situação: Reprovado
+
+--- Aluno 19 ---
+Nome: Naldo Gatão da Silva
+Matricula: 19
+Nota 01: 10.00
+Nota 02: 10.00
+Nota 03: 10.00
+Nota 04: 10.00
+Media: 10.00
+Situação: Aprovado
+
+Total de alunos: 19

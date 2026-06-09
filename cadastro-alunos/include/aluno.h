@@ -9,6 +9,7 @@ typedef struct
    int matricula;
    double nota1, nota2, nota3, nota4, media;
    char situacao[20];
+   int ativo;
 } Aluno;
 
 #endif

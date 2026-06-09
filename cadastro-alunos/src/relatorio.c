@@ -62,15 +62,18 @@ void exportarTXT(Aluno alunos[], int total)
 
    for (int i = 0; i < total; i++)
    {
-      fprintf(arquivo, "--- Aluno %d ---\n", i + 1);
-      fprintf(arquivo, "Nome: %s\n", alunos[i].nome);
-      fprintf(arquivo, "Matricula: %d\n", alunos[i].matricula);
-      fprintf(arquivo, "Nota 01: %.2lf\n", alunos[i].nota1);
-      fprintf(arquivo, "Nota 02: %.2lf\n", alunos[i].nota2);
-      fprintf(arquivo, "Nota 03: %.2lf\n", alunos[i].nota3);
-      fprintf(arquivo, "Nota 04: %.2lf\n", alunos[i].nota4);
-      fprintf(arquivo, "Media: %.2lf\n", alunos[i].media);
-      fprintf(arquivo, "Situação: %s\n\n", alunos[i].situacao);
+      if (alunos[i].ativo == 1)
+      {
+         fprintf(arquivo, "--- Aluno %d ---\n", i + 1);
+         fprintf(arquivo, "Nome: %s\n", alunos[i].nome);
+         fprintf(arquivo, "Matricula: %d\n", alunos[i].matricula);
+         fprintf(arquivo, "Nota 01: %.2lf\n", alunos[i].nota1);
+         fprintf(arquivo, "Nota 02: %.2lf\n", alunos[i].nota2);
+         fprintf(arquivo, "Nota 03: %.2lf\n", alunos[i].nota3);
+         fprintf(arquivo, "Nota 04: %.2lf\n", alunos[i].nota4);
+         fprintf(arquivo, "Media: %.2lf\n", alunos[i].media);
+         fprintf(arquivo, "Situação: %s\n\n", alunos[i].situacao);
+      }
    }
 
    fprintf(arquivo, "Total de alunos: %d\n", total);
@@ -94,15 +97,18 @@ void exportarCSV(Aluno alunos[], int total)
 
    for (int i = 0; i < total; i++)
    {
-      fprintf(arquivo, "%s, %d,%.2lf, %.2lf, %.2lf, %.2lf, %.2lf, %s\n",
-              alunos[i].nome,
-              alunos[i].matricula,
-              alunos[i].nota1,
-              alunos[i].nota2,
-              alunos[i].nota3,
-              alunos[i].nota4,
-              alunos[i].media,
-              alunos[i].situacao);
+      if (alunos[i].ativo == 1)
+      {
+         fprintf(arquivo, "%s, %d,%.2lf, %.2lf, %.2lf, %.2lf, %.2lf, %s\n",
+                 alunos[i].nome,
+                 alunos[i].matricula,
+                 alunos[i].nota1,
+                 alunos[i].nota2,
+                 alunos[i].nota3,
+                 alunos[i].nota4,
+                 alunos[i].media,
+                 alunos[i].situacao);
+      }
    }
 
    fclose(arquivo);
@@ -125,23 +131,26 @@ void exportarJSON(Aluno alunos[], int total)
 
    for (int i = 0; i < total; i++)
    {
-      fprintf(arquivo, "  {\n");
-      fprintf(arquivo, "    \"nome\": \"%s\",\n", alunos[i].nome);
-      fprintf(arquivo, "    \"matricula\": %d,\n", alunos[i].matricula);
-      fprintf(arquivo, "    \"nota1\": %.2lf,\n", alunos[i].nota1);
-      fprintf(arquivo, "    \"nota2\": %.2lf,\n", alunos[i].nota2);
-      fprintf(arquivo, "    \"nota3\": %.2lf,\n", alunos[i].nota3);
-      fprintf(arquivo, "    \"nota4\": %.2lf,\n", alunos[i].nota4);
-      fprintf(arquivo, "    \"media\": %.2lf,\n", alunos[i].media);
-      fprintf(arquivo, "    \"situacao\": \"%s\"\n", alunos[i].situacao);
+      if (alunos[i].ativo == 1)
+      {
+         fprintf(arquivo, "  {\n");
+         fprintf(arquivo, "    \"nome\": \"%s\",\n", alunos[i].nome);
+         fprintf(arquivo, "    \"matricula\": %d,\n", alunos[i].matricula);
+         fprintf(arquivo, "    \"nota1\": %.2lf,\n", alunos[i].nota1);
+         fprintf(arquivo, "    \"nota2\": %.2lf,\n", alunos[i].nota2);
+         fprintf(arquivo, "    \"nota3\": %.2lf,\n", alunos[i].nota3);
+         fprintf(arquivo, "    \"nota4\": %.2lf,\n", alunos[i].nota4);
+         fprintf(arquivo, "    \"media\": %.2lf,\n", alunos[i].media);
+         fprintf(arquivo, "    \"situacao\": \"%s\"\n", alunos[i].situacao);
 
-      if (i < total - 1)
-      {
-         fprintf(arquivo, "},\n");
-      }
-      else
-      {
-         fprintf(arquivo, "}\n");
+         if (i < total - 1)
+         {
+            fprintf(arquivo, "},\n");
+         }
+         else
+         {
+            fprintf(arquivo, "}\n");
+         }
       }
    }
 

@@ -11,6 +11,8 @@ void salvarAlunos(Aluno alunos[], int total);
 void carregarAlunos(Aluno alunos[], int *total);
 void buscarAluno(Aluno alunos[], int total);
 void exportarRelatorio(Aluno alunos[], int total);
+void editarAluno(Aluno alunos[], int total);
+void removerAluno(Aluno alunos[], int total);
 
 int main()
 {
@@ -29,6 +31,8 @@ int main()
       printf("3 - Salvar alunos\n");
       printf("4 - Buscar aluno\n");
       printf("5 - Exportar relatório\n");
+      printf("6 - Editar aluno\n");
+      printf("7 - Remover aluno\n");
       printf("0 - Sair\n");
       printf("Opçao: ");
       scanf("%d", &opcao);
@@ -49,6 +53,12 @@ int main()
          break;
       case 5:
          exportarRelatorio(alunos, total);
+         break;
+      case 6:
+         editarAluno(alunos, total);
+         break;
+      case 7:
+         removerAluno(alunos, total);
          break;
       case 0:
          printf("[ Encerrando programa! ]");

@@ -1,117 +1,7 @@
 [
   {
-    "nome": "Felipe Augusto Cardoso",
+    "nome": "Amanda Cristina Souza",
     "matricula": 1,
-    "nota1": 5.00,
-    "nota2": 6.00,
-    "nota3": 7.00,
-    "nota4": 8.00,
-    "media": 6.50,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Renata Souza Oliveira",
-    "matricula": 2,
-    "nota1": 9.00,
-    "nota2": 6.00,
-    "nota3": 5.00,
-    "nota4": 8.00,
-    "media": 7.00,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Gustavo Henrique Prado",
-    "matricula": 3,
-    "nota1": 7.00,
-    "nota2": 5.00,
-    "nota3": 6.00,
-    "nota4": 9.00,
-    "media": 6.75,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Isabela Cristina Nunes",
-    "matricula": 4,
-    "nota1": 4.00,
-    "nota2": 5.00,
-    "nota3": 3.00,
-    "nota4": 2.00,
-    "media": 3.50,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Anderson Luis Batista",
-    "matricula": 5,
-    "nota1": 3.00,
-    "nota2": 2.00,
-    "nota3": 1.00,
-    "nota4": 3.00,
-    "media": 2.25,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Priscila Melo Ferreira",
-    "matricula": 6,
-    "nota1": 6.00,
-    "nota2": 3.00,
-    "nota3": 5.00,
-    "nota4": 2.00,
-    "media": 4.00,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Rodrigo Alves Teixeira",
-    "matricula": 7,
-    "nota1": 9.00,
-    "nota2": 8.00,
-    "nota3": 9.00,
-    "nota4": 7.00,
-    "media": 8.25,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Tatiane Costa Barbosa",
-    "matricula": 8,
-    "nota1": 9.00,
-    "nota2": 6.00,
-    "nota3": 5.00,
-    "nota4": 8.00,
-    "media": 7.00,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Leandro Marques Vieira",
-    "matricula": 9,
-    "nota1": 4.00,
-    "nota2": 5.00,
-    "nota3": 3.00,
-    "nota4": 5.00,
-    "media": 4.25,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Vanessa Lima Rodrigues",
-    "matricula": 10,
-    "nota1": 4.00,
-    "nota2": 5.00,
-    "nota3": 2.00,
-    "nota4": 3.00,
-    "media": 3.50,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Fábio Gonçalves Araújo",
-    "matricula": 11,
-    "nota1": 9.00,
-    "nota2": 8.00,
-    "nota3": 7.00,
-    "nota4": 6.00,
-    "media": 7.50,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Daniela Pereira Campos",
-    "matricula": 12,
     "nota1": 1.00,
     "nota2": 2.00,
     "nota3": 3.00,
@@ -120,48 +10,8 @@
     "situacao": "Reprovado"
 },
   {
-    "nome": "Marcelo Rocha Santana",
-    "matricula": 13,
-    "nota1": 8.00,
-    "nota2": 5.00,
-    "nota3": 2.00,
-    "nota4": 3.00,
-    "media": 4.50,
-    "situacao": "Reprovado"
-},
-  {
-    "nome": "Aline Ribeiro Monteiro",
-    "matricula": 14,
-    "nota1": 9.00,
-    "nota2": 9.00,
-    "nota3": 8.00,
-    "nota4": 6.00,
-    "media": 8.00,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Eduardo Fernandes Cruz",
-    "matricula": 15,
-    "nota1": 9.00,
-    "nota2": 6.00,
-    "nota3": 3.00,
-    "nota4": 6.00,
-    "media": 6.00,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Jackson Douglas de Souza",
-    "matricula": 16,
-    "nota1": 10.00,
-    "nota2": 10.00,
-    "nota3": 10.00,
-    "nota4": 9.00,
-    "media": 9.75,
-    "situacao": "Aprovado"
-},
-  {
-    "nome": "Victória Silva Bernardes",
-    "matricula": 17,
+    "nome": "Bruno Felipe Martins",
+    "matricula": 2,
     "nota1": 5.00,
     "nota2": 6.00,
     "nota3": 7.00,
@@ -170,18 +20,178 @@
     "situacao": "Aprovado"
 },
   {
-    "nome": "Manu da Silva Ribeiro",
-    "matricula": 18,
-    "nota1": 5.00,
-    "nota2": 6.00,
+    "nome": "Carla Regina Oliveira",
+    "matricula": 3,
+    "nota1": 10.00,
+    "nota2": 5.00,
+    "nota3": 9.00,
+    "nota4": 8.00,
+    "media": 8.00,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Diego Henrique Lima",
+    "matricula": 4,
+    "nota1": 1.00,
+    "nota2": 2.00,
     "nota3": 3.00,
     "nota4": 6.00,
-    "media": 5.00,
+    "media": 3.00,
     "situacao": "Reprovado"
 },
   {
-    "nome": "Naldo Gatão da Silva",
+    "nome": "Eliane Aparecida Costa",
+    "matricula": 5,
+    "nota1": 10.00,
+    "nota2": 5.00,
+    "nota3": 9.00,
+    "nota4": 8.00,
+    "media": 8.00,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Fábio Rodrigues Pereira",
+    "matricula": 6,
+    "nota1": 8.00,
+    "nota2": 9.00,
+    "nota3": 9.00,
+    "nota4": 7.00,
+    "media": 8.25,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Gabriela Matos Ferreira",
+    "matricula": 7,
+    "nota1": 8.00,
+    "nota2": 9.00,
+    "nota3": 9.00,
+    "nota4": 9.00,
+    "media": 8.75,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Henrique Augusto Rocha",
+    "matricula": 8,
+    "nota1": 7.00,
+    "nota2": 4.00,
+    "nota3": 3.00,
+    "nota4": 2.00,
+    "media": 4.00,
+    "situacao": "Reprovado"
+},
+  {
+    "nome": "Isabela Nunes Cardoso",
+    "matricula": 9,
+    "nota1": 3.00,
+    "nota2": 3.00,
+    "nota3": 3.00,
+    "nota4": 3.00,
+    "media": 3.00,
+    "situacao": "Reprovado"
+},
+  {
+    "nome": "João Victor Almeida",
+    "matricula": 10,
+    "nota1": 9.00,
+    "nota2": 8.00,
+    "nota3": 5.00,
+    "nota4": 4.00,
+    "media": 6.50,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Karina Souza Teixeira",
+    "matricula": 11,
+    "nota1": 7.00,
+    "nota2": 8.00,
+    "nota3": 9.00,
+    "nota4": 10.00,
+    "media": 8.50,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Leonardo Batista Araújo",
+    "matricula": 12,
+    "nota1": 8.00,
+    "nota2": 8.00,
+    "nota3": 7.00,
+    "nota4": 5.00,
+    "media": 7.00,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Mariana Gomes Vieira",
+    "matricula": 13,
+    "nota1": 10.00,
+    "nota2": 5.00,
+    "nota3": 6.00,
+    "nota4": 7.00,
+    "media": 7.00,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Nathan Ribeiro Campos",
+    "matricula": 14,
+    "nota1": 5.00,
+    "nota2": 6.00,
+    "nota3": 6.00,
+    "nota4": 5.00,
+    "media": 5.50,
+    "situacao": "Reprovado"
+},
+  {
+    "nome": "Paulo Henrique Barbosa",
+    "matricula": 16,
+    "nota1": 7.00,
+    "nota2": 5.00,
+    "nota3": 3.00,
+    "nota4": 6.00,
+    "media": 5.25,
+    "situacao": "Reprovado"
+},
+  {
+    "nome": "Queila Fernanda Borges",
+    "matricula": 17,
+    "nota1": 9.00,
+    "nota2": 8.00,
+    "nota3": 7.00,
+    "nota4": 6.00,
+    "media": 7.50,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Ricardo Alves Nascimento",
+    "matricula": 18,
+    "nota1": 10.00,
+    "nota2": 2.00,
+    "nota3": 3.00,
+    "nota4": 9.00,
+    "media": 6.00,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Simone Aparecida Cruz",
     "matricula": 19,
+    "nota1": 9.00,
+    "nota2": 9.00,
+    "nota3": 9.00,
+    "nota4": 8.00,
+    "media": 8.75,
+    "situacao": "Aprovado"
+},
+  {
+    "nome": "Tiago Marques Cavalcanti",
+    "matricula": 20,
+    "nota1": 1.00,
+    "nota2": 5.00,
+    "nota3": 9.00,
+    "nota4": 8.00,
+    "media": 5.75,
+    "situacao": "Reprovado"
+},
+  {
+    "nome": "Jackson Douglas de Souza",
+    "matricula": 21,
     "nota1": 10.00,
     "nota2": 10.00,
     "nota3": 10.00,
